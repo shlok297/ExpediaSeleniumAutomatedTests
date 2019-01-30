@@ -43,9 +43,10 @@ public class XPathConstants {
 	public static final String DepartDateSelectX = "//*[@id=\'flight-departing-wrapper-hp-flight\']/div/div/div[3]/table/tbody/tr[3]/td[4]/button";
 	public static final String NextMonthX = "//*[@id=\'flight-returning-wrapper-hp-flight\']/div/div/button[2]";
 	public static final String ReturnDateSelectX = "//*[@id=\'flight-returning-wrapper-hp-flight\']/div/div/div[3]/table/tbody/tr[3]/td[5]/button";
-
-	//under test
 	public static final String SelectChildAgeDrpDownX = "//*[@id='flight-age-select-1-hp-flight']";
 	public static final String SelectInfantAgeDrpDownX = "//*[@id=\'traveler-selector-hp-flight\']/div/ul/li/div/div/div/div[3]/div[2]/label[1]/select";
-
+	public static final String DepartureAirport = "//*[@id=\'departure-airport-1']";
+	public static final String ArrivalAirport = "//*[@id=\'arrival-airport-1\']";
+	public static final String DepartureDateAfter = "//*[@id=\'departure-date-1\']";
+	public static final String ReturningDateAfter = "//*[@id=\'return-date-1\']";
 }
