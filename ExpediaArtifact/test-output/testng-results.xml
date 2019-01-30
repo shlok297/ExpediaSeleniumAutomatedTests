@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="107080" started-at="2019-01-30T07:05:10Z" finished-at="2019-01-30T07:06:57Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="107080" started-at="2019-01-30T07:05:10Z" finished-at="2019-01-30T07:06:57Z">
+      <class name="ExpediaGroup.ExpediaViewFlightsPageTest">
+        <test-method status="PASS" signature="ConfigureWebDriver()[pri:0, instance:ExpediaGroup.ExpediaViewFlightsPageTest@d2cc05a]" name="ConfigureWebDriver" is-config="true" duration-ms="22842" started-at="2019-01-30T07:05:10Z" finished-at="2019-01-30T07:05:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureWebDriver -->
+        <test-method status="PASS" signature="CheckValidDataWithTab()[pri:0, instance:ExpediaGroup.ExpediaViewFlightsPageTest@d2cc05a]" name="CheckValidDataWithTab" duration-ms="84194" started-at="2019-01-30T07:05:33Z" finished-at="2019-01-30T07:06:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckValidDataWithTab -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:ExpediaGroup.ExpediaViewFlightsPageTest@d2cc05a]" name="CloseBrowser" is-config="true" duration-ms="0" started-at="2019-01-30T07:06:57Z" finished-at="2019-01-30T07:06:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- ExpediaGroup.ExpediaViewFlightsPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
