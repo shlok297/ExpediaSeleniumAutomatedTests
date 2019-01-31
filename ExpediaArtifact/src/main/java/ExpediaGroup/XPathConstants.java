@@ -49,4 +49,8 @@ public class XPathConstants {
 	public static final String ArrivalAirport = "//*[@id=\'arrival-airport-1\']";
 	public static final String DepartureDateAfter = "//*[@id=\'departure-date-1\']";
 	public static final String ReturningDateAfter = "//*[@id=\'return-date-1\']";
+	public static final String NumberOfFlightOptionsX = "//*[@id=\'flightModuleList\']/li";
+	public static final String PriceOfFirstFlightsX = "//*[@id=\'flightModuleList\']/li[1]/div[1]/div[1]/div[2]/div/div[1]/div[1]/span";
+	public static final String SortSelectDrpDownX = "//*[@id='sortDropdown']";
+	public static final String DurationOfTheFirstFlight = "//*[@id='flightModuleList']/li[1]/div[1]/div[1]/div[1]/div/div/div/div[2]/div[1]/span[1]";
 }
