@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ExpediaSmokeTest">
+	<test thread-count="5" name="ErrorMessageAndFieldsTests">
+		<classes>
+			<class name="ExpediaGroup.ExpediaMainPageTest" />
+		</classes>
+	</test>
+	<test thread-count="5" name="DataTransferAndSortingTests">
+		<classes>
+			<class name="ExpediaGroup.ExpediaViewFlightsPageTest" />
+		</classes>
+	</test>
+</suite>

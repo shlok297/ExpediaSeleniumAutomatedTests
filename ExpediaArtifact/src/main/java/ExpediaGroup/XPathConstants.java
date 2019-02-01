@@ -53,4 +53,10 @@ public class XPathConstants {
 	public static final String PriceOfFirstFlightsX = "//*[@id=\'flightModuleList\']/li[1]/div[1]/div[1]/div[2]/div/div[1]/div[1]/span";
 	public static final String SortSelectDrpDownX = "//*[@id='sortDropdown']";
 	public static final String DurationOfTheFirstFlight = "//*[@id='flightModuleList']/li[1]/div[1]/div[1]/div[1]/div/div/div/div[2]/div[1]/span[1]";
+	public static final String InputOriginAirportCodeX = "//*[@id='flight-origin-hp-flight-airport_code']";
+	public static final String InputDestinationAirportCodeX = "//*[@id='flight-destination-hp-flight-airport_code']";
+	public static final String DepartDateFormatX = "//*[@id=\"flight-departing-hp-flight\"]";
+	public static final String ReturnDateFormatX = "//*[@id=\"flight-returning-hp-flight\"]";
+	public static final String NumberofKidsX = "//*[@id=\"traveler-selector-hp-flight\"]/div/ul/li/button/span/span[4]/span[2]";
+	public static final String NumberofAdultsX = "//*[@id=\"traveler-selector-hp-flight\"]/div/ul/li/button/span/span[4]/span[1]";
 }
